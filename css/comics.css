@@ -1,0 +1,873 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
+body
+{
+	background-color:white;
+	font-family: verdana,sans-serif;
+	margin: 0;
+}
+
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+a:link{
+	color:white;
+	text-decoration:none;
+}
+
+#home
+{
+	z-index:9999;
+	position:absolute;
+	top:0%;
+	left:47%;
+	width:6%;
+	height:4%;
+	
+}
+
+#mycart
+{
+	font-size:1.42vmin;
+	position:absolute;
+	color: white;
+	top:14.52%;
+	left:95.8%;
+}
+
+#my_cart
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:92.42%;
+	left:16px;
+}
+
+#marvel_logo
+{
+
+	position:absolute;
+	left:0%;
+	top:0%;
+	background-color:#333333;
+	height:4.25%;
+	width:100%;
+	text-align:center;
+}
+
+#horizontal_yellow_bar1
+{
+
+	position:absolute;
+	background-color:white;
+	bottom:0%;
+	height:1.02%;
+	width:100%;
+	left:0%;
+}
+
+#vertical_yellow_bar1
+{
+
+	position:absolute;
+	background-color:white;
+	top:0%;
+	height:100%;
+	width:0.15%;
+	left:93%;
+}
+
+#shield_logo
+{
+
+	position:absolute;
+	top:8%;
+	left:89.5%;
+	height:80%;
+	width:10%;
+}
+
+#sign_in
+{
+
+	font-size:1.72vmin;
+	position:absolute;
+	left:64.5%;
+	top:-45%;
+	color: white;
+}
+
+
+#search_logo
+{
+
+	position:absolute;
+	left:-35.8%;
+	top:3%;
+	color: white;
+	height:100%;
+}
+
+#vertical_yellow_bar2
+{
+
+	position:absolute;
+	background-color:white;
+	top:-12%;
+	height:120%;
+	width:1.22%;
+	left:37.5%;
+}
+
+#horizontal_yellow_bar2
+{
+
+	position:absolute;
+	background-color:white;
+	top:7000%;
+	height:400%;
+	z-index:5;
+	width:100%;
+	left:0%;
+}
+
+#filler
+{
+
+	position:absolute;
+	top:102%;
+	background-color:#333333;
+	height:72%;
+	width:100%;
+	text-align:center;
+}
+
+#movies
+{
+
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	height:100%;
+	left:33.58%;
+}
+
+#movies:hover {
+	color:red;
+}
+
+#series
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:41.34%;
+}
+
+#series:hover {
+	color:red;
+}
+
+#comics
+{
+
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:48%;
+}
+
+#comics:hover {
+	color:red;
+}
+
+#games
+{
+
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:54.85%;
+}
+
+#games:hover {
+	color:red;
+}
+
+#characters
+{
+
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.52%;
+	left:61.2%;
+}
+
+#characters:hover {
+	color:red;
+}
+
+.snip1418 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #ffffff;
+  text-align: left;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-perspective: 20em;
+  perspective: 20em;
+}
+.snip1418 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.snip1418 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+.snip1418 .add-to-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  opacity: 0;
+  background-color: #409ad5;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.snip1418 .add-to-cart i {
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #164666;
+  color: #ffffff;
+  font-size: 1.4em;
+}
+.snip1418 figcaption {
+  padding: 20px;
+}
+.snip1418 h3,
+.snip1418 p {
+  margin: 0;
+}
+.snip1418 h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.snip1418 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.snip1418 .price {
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+.snip1418 .price s {
+  margin-right: 5px;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+.snip1418 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1418:hover .add-to-cart,
+.snip1418.hover .add-to-cart {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.snip1418:hover .add-to-cart i,
+.snip1418.hover .add-to-cart i {
+  background-color: #2980b9;
+}
+
+
+
+#pic1
+{
+	top:10%;
+}
+
+#comic1
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:80%;
+}
+
+#comic2
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:80%;
+}
+
+#comic3
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:80%;
+}
+
+#comic4
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:80%;
+}
+
+#comic5
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:80%;
+}
+
+/***********************************/
+
+#comic11
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:140%;
+}
+
+#comic21
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:140%;
+}
+
+#comic31
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:140%;
+}
+
+#comic41
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:140%;
+}
+
+#comic51
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:140%;
+}
+
+/***********************************/
+
+#comic12
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:200%;
+}
+
+#comic22
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:200%;
+}
+
+#comic32
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:200%;
+}
+
+#comic42
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:200%;
+}
+
+#comic52
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:200%;
+}
+
+/***********************************/
+#comic13
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:260%;
+}
+
+#comic23
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:260%;
+}
+
+#comic33
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:260%;
+}
+
+#comic43
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:260%;
+}
+
+#comic53
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:260%;
+}
+
+/***********************************/
+#comic14
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:320%;
+}
+
+#comic24
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:320%;
+}
+
+#comic34
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:320%;
+}
+
+#comic44
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:320%;
+}
+
+#comic54
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:320%;
+}
+
+/***********************************/
+
+#comic15
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:380%;
+}
+
+#comic25
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:380%;
+}
+
+#comic35
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:380%;
+}
+
+#comic45
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:380%;
+}
+
+#comic55
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:380%;
+}
+
+/***********************************/
+
+#comic16
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:440%;
+}
+
+#comic26
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:440%;
+}
+
+#comic36
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:440%;
+}
+
+#comic46
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:440%;
+}
+
+#comic56
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:440%;
+}
+
+/***********************************/
+
+
+#comic17
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:500%;
+}
+
+#comic27
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:500%;
+}
+
+#comic37
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:500%;
+}
+
+#comic47
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:500%;
+}
+
+#comic57
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:500%;
+}
+
+/***********************************/
+
+#comic18
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:560%;
+}
+
+#comic28
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:560%;
+}
+
+#comic38
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:560%;
+}
+
+#comic48
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:560%;
+}
+
+#comic58
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:560%;
+}
+
+/***********************************/
+
+#comic19
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:620%;
+}
+
+#comic29
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:620%;
+}
+
+#comic39
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:620%;
+}
+
+#comic49
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:620%;
+}
+
+#comic59
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:620%;
+}
+
+/***********************************/
+
+#comic110
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:680%;
+}
+
+#comic210
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:680%;
+}
+
+#comic310
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:680%;
+}
+
+#comic410
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:680%;
+}
+
+#comic510
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:680%;
+}
+
+/***********************************/
+
+#comic111
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:740%;
+}
+
+#comic211
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:740%;
+}
+
+#comic311
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:740%;
+}
+
+#comic411
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:740%;
+}
+
+#comic511
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:740%;
+}
+
+/***********************************/
+
+#comic112
+{
+	z-index:99;
+	position:absolute;
+	left:7%;
+	top:800%;
+}
+
+#comic212
+{
+	z-index:99;
+	position:absolute;
+	left:25%;
+	top:800%;
+}
+
+#comic312
+{
+	z-index:99;
+	position:absolute;
+	left:43%;
+	top:800%;
+}
+
+#comic412
+{
+	z-index:99;
+	position:absolute;
+	left:61%;
+	top:800%;
+}
+
+#comic512
+{
+	z-index:99;
+	position:absolute;
+	left:79%;
+	top:800%;
+}
+
+/***********************************/

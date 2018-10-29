@@ -1,0 +1,320 @@
+body
+{
+	/*background-color:black;*/
+	background-image:url("/site/images/login_wp.jpg");
+	font-family: verdana,sans-serif;
+	margin: 0;
+}
+
+*{margin: 0; padding: 0;}
+	   
+.button {
+    background-color:red;
+    border: none;
+	color: white;
+	margin: auto;
+	border-radius: 25px;
+    padding: 10px 20px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	position:relative;
+	top: 10px;
+}
+
+.form-wrap{
+	width: 360px;
+	background: white; 
+	padding: 40px 20px; 
+	box-sizing: border-box;
+	position: fixed; 
+	left: 50%; 
+	top: 50%; 
+	transform: translate(-50%, -50%);
+	}
+    
+	h1{
+		text-align: center;
+		color: black; 
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+    
+	input{
+		width: 100%;
+		background: none;
+		border: 1px solid #ED1D24; 
+		border-radius: 3px; 
+		padding: 6px 15px;
+		box-sizing: border-box; 
+		margin-bottom: 23px; 
+		font-size: 16px; 
+		color: black;}
+    
+	input[type="button"]{ 
+		background: #ED1D24; 
+		border: 0; 
+		cursor: pointer;
+		color: white;
+	}
+   
+	input[type="button"]:hover{ 
+		background: #6b3232; 
+		transition: .6s;
+	}
+    ::placeholder{
+		color: black;
+	}  
+
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+a:link{
+	color:white;
+	text-decoration:none;
+}
+
+#home
+{
+	z-index:9999;
+	position:absolute;
+	top:0%;
+	left:47%;
+	width:6%;
+	height:4%;
+	
+}
+
+#marvel_logo
+{
+
+	position:absolute;
+	left:0%;
+	top:0%;
+	background-color:#333333;
+	height:4.25%;
+	width:100%;
+	text-align:center;
+}
+
+#mycart
+{
+	font-size:1.42vmin;
+	position:absolute;
+	color: white;
+	top:14.52%;
+	left:95.8%;
+}
+
+#my_cart
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:92.42%;
+	left:16px;
+}
+
+#horizontal_yellow_bar1
+{
+
+	position:absolute;
+	background-color:white;
+	bottom:0%;
+	height:1.02%;
+	width:100%;
+	left:0%;
+}
+
+#vertical_yellow_bar1
+{
+
+	position:absolute;
+	background-color:white;
+	top:0%;
+	height:100%;
+	width:0.15%;
+	left:93%;
+}
+
+#shield_logo
+{
+	
+	position:absolute;
+	top:8%;
+	left:89.5%;
+	height:80%;
+	width:10%;
+}
+
+#sign_in
+{
+
+	font-size:1.72vmin;
+	position:absolute;
+	left:64.5%;
+	top:20%;
+	color: white;
+}
+
+
+#search_logo
+{
+
+	position:absolute;
+	left:-35.8%;
+	top:3%;
+	color: white;
+	height:100%;
+}
+
+#vertical_yellow_bar2
+{
+	
+	position:absolute;
+	background-color:white;
+	top:-12%;
+	height:120%;
+	width:1.22%;
+	left:37.5%;
+}
+
+#horizontal_yellow_bar2
+{
+	
+	position:absolute;
+	background-color:white;
+	top:7000%;
+	height:400%;
+	z-index:5;
+	width:100%;
+	left:0%;
+}
+
+#filler
+{
+	
+	position:absolute;
+	top:102%;
+	background-color:#333333;
+	height:72%;
+	width:100%;
+	text-align:center;
+}
+
+#movies
+{
+	
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	height:100%;
+	left:33.58%;
+}
+
+#movies:hover {
+	color:red;
+}
+
+#series
+{
+	
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:41.34%;
+}
+
+#series:hover {
+	color:red;
+}
+
+#comics
+{
+	
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:48%;
+}
+
+#comics:hover {
+	color:red;
+}
+
+#games
+{
+	
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:54.85%;
+}
+
+#games:hover {
+	color:red;
+}
+
+#characters
+{
+	
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.52%;
+	left:61.2%;
+}
+
+#characters:hover {
+	color:red;
+}
+
+#sign
+{
+	font-size:0.6vw;
+	z-index:120;
+	color:black;
+	text-align: center;
+}
+
+#sign_hyper
+{
+	font-size:0.6vw;
+	z-index:120;
+	color:red;
+	text-align: center;
+}
+
+#fpas
+{
+	font-size:0.6vw;
+	z-index:120;
+	position:fixed;
+	top:90%;
+	left:36%;
+	color:grey;
+}
+
+#show_pass
+{
+	font-size:0.6vw;
+	z-index:120;
+	position:fixed;
+	top:64%;
+	left:18%;
+	color:black;
+}
+
+#checc
+{
+	position:relative;
+	bottom: 20px;
+	transform: scale(1.5);
+}

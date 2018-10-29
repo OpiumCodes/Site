@@ -1,0 +1,707 @@
+body
+{
+	background-color:white;
+	font-family: verdana,sans-serif;
+	margin: 0;
+}
+
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+a:link{
+	color:white;
+	text-decoration:none;
+}
+/*
+.loader {
+  height: 6px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.loader:before{
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 6px;
+  background-color: red;
+  animation: loading 16s linear infinite;
+}
+
+@keyframes loading {
+    from {left: -200px; width: 25%;}
+    50% {width: 25%;}
+    70% {width: 70%;}
+    80% { left: 50%;}
+    95% {left: 120%;}
+    to {left: 100%;}
+}*/
+
+.slideshow-container{
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.hidden{
+	display: none;
+}
+
+.prev
+{
+	position: fixed;
+	top: 45%;
+	font-size: 18px;
+	left:0;
+	font-weight: bold;
+	padding: 16px;
+	margin-top: -22px;
+	border-radius: 0 3px 3px 0;
+	color: red;
+	cursor: pointer;
+}
+
+.next{
+	left: 98%;
+	position: fixed;
+	top: 45%;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 16px;
+	margin-top: -22px;
+	border-radius: 3px 0 0 3px;
+	color: red;
+	cursor: pointer;
+}
+
+.prev:hover,.next:hover{
+	background-color: white;
+}
+/*
+.caption{
+	text-align: center;
+	position: fixed;
+	top: 25%;
+	width: 10%;	
+	color: red;
+	font-size: 15px;
+	padding: 8px 22px;
+}
+*/
+
+.dots{
+	width: 13px;
+	height: 13px;
+	background: red;
+	background-color: white;
+	display: inline-block;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.active, .dot:hover {
+	background-color: white;
+	background:	red;
+}
+
+.fade{
+	animation-name:fade;
+	animation-duration:1.5s;
+}
+
+@keyframes fade{
+	from {opacity: 0.4;}
+	to {opacity: 1;}
+}
+
+#home
+{
+	z-index:99;
+	position:absolute;
+	top:0%;
+	left:47%;
+	width:6%;
+	height:4%;
+	
+}
+
+#marvel_logo
+{
+	position:absolute;
+	left:0%;
+	top:0%;
+	background-color:#333333;
+	height:4.25%;
+	width:100%;
+	text-align:center;
+}
+
+#horizontal_yellow_bar1
+{
+	position:absolute;
+	background-color:white;
+	bottom:0%;
+	height:1.02%;
+	width:100%;
+	left:0%;
+}
+
+#vertical_yellow_bar1
+{
+	position:absolute;
+	background-color:white;
+	top:0%;
+	height:100%;
+	width:0.15%;
+	left:93%;
+}
+
+#shield_logo
+{
+	position:absolute;
+	top:8%;
+	left:89.5%;
+	height:80%;
+	width:10%;
+}
+
+#sign_in
+{
+	font-size:1.72vmin;
+	position:absolute;
+	left:64.5%;
+	top:-45%;
+	color: white;
+}
+
+#add_to_cart
+{
+	z-index:99999;
+	position:absolute;
+	left:35.8%;
+	top:3%;
+	color: white;
+	height:100%;
+}
+
+#search_logo
+{
+	position:absolute;
+	left:-35.8%;
+	top:3%;
+	color: white;
+	height:100%;
+}
+
+#vertical_yellow_bar2
+{
+	position:absolute;
+	background-color:white;
+	top:-12%;
+	height:120%;
+	width:1.22%;
+	left:37.5%;
+}
+
+#horizontal_yellow_bar2
+{
+	position:absolute;
+	background-color:white;
+	top:7000%;
+	height:400%;
+	z-index:5;
+	width:100%;
+	left:0%;
+}
+
+#filler
+{
+	position:absolute;
+	top:102%;
+	background-color:#333333;
+	height:72%;
+	width:100%;
+	text-align:center;
+}
+
+#movies
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:33.58%;
+}
+
+#movies:hover {
+	color:red;
+}
+
+
+#series
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:41.34%;
+}
+
+#series:hover {
+	color:red;
+}
+
+#comics
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:48%;
+}
+
+#comics:hover {
+	color:red;
+}
+
+#games
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.5%;
+	left:54.85%;
+}
+
+#games:hover {
+	color:red;
+}
+
+#characters
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:12.52%;
+	left:61.2%;
+}
+
+#mycart
+{
+	font-size:1.42vmin;
+	position:absolute;
+	color: white;
+	top:14.52%;
+	left:95.8%;
+}
+
+#my_cart
+{
+	font-size:1.72vmin;
+	position:absolute;
+	color: white;
+	top:92.42%;
+	left:16px;
+}
+
+#characters:hover {
+	color:red;
+}
+
+#butoane
+{
+	z-index:99;
+	position:absolute;
+	top:80.2%;
+	left:48.3%;
+}
+
+#aux
+{
+	position:absolute;
+	background-color:#ffd9b3;
+	top:7.35%;
+	height:2220.08%;
+	width:100%;
+	left:0%;
+}
+
+#pic1
+{
+	background-color:white;
+	color:red;
+	position:absolute;
+	top:2px;
+	width:1920px;
+	height:700px;
+}
+
+#pic2
+{
+	background-color:white;
+	position:absolute;
+	width:1920px;
+	top:2px;
+	height:700px;
+}
+
+#pic3
+{
+	background-color:white;
+	position:absolute;
+	width:1920px;
+	top:2px;
+	height:700px;
+}
+
+#pic4
+{
+	background-color:white;
+	position:absolute;
+	width:1920px;
+	top:2px;
+	height:700px;
+}
+
+#watchnow1
+{
+	position:absolute;
+	width:7%;
+	height:7%;
+	top:52%;
+	left:14%;
+}
+
+#watchnow2
+{
+	position:absolute;
+	width:7%;
+	height:7%;
+	top:55%;
+	left:18%;
+}
+
+#readmore1
+{
+	position:absolute;
+	width:7%;
+	height:7%;
+	top:52%;
+	left:22%;
+}
+
+#readmore2
+{
+	position:absolute;
+	width:7%;
+	height:7%;
+	top:55%;
+	left:10%;
+}
+/*
+#loading_bar
+{
+	width:400%;
+	right:190%;
+}*/
+
+#separator
+{
+	position:absolute;
+	background-color:white;
+	left:-1345%;
+	width:2785%;
+	top:100%;
+	height:870%;
+}
+
+#news1
+{
+	z-index: 9909;
+	position:absolute;
+	background-color:white;
+	text-align:center;
+	top:-36.3%;
+	left:15%;
+	height:35%;
+	width:11%;
+	font-size:0.8vw;
+}
+
+
+#news2
+{
+	z-index: 9909;
+	position:absolute;
+	background-color:white;
+	text-align:center;
+	top:-36.3%;
+	left:26%;
+	height:35%;
+	width:11%;
+}
+
+#news3
+{
+	z-index: 9909;
+	position:absolute;
+	background-color:white;
+	text-align:center;
+	top:-36.3%;
+	left:37%;
+	height:35%;
+	width:11%;
+}
+
+#news4
+{
+	z-index: 9909;
+	position:absolute;
+	top:-36.3%;
+	background-color:white;
+	text-align:center;
+	left:48%;
+	height:35%;
+	width:11%;
+}
+
+#follow
+{
+	position:fixed;
+	color:grey;
+	z-index: 999;
+	left:92%;
+	top:78.6%;
+	height:100%;
+}
+
+#fb
+{
+	position:fixed;
+	z-index: 999;
+	left:92.8%;
+	top:84.5%;
+	height:100%;
+	filter: grayscale(100%);
+}
+
+#yt
+{
+	position:fixed;
+	z-index: 999;
+	left:92.3%;
+	top:88.5%;
+	height:100%;
+	filter: grayscale(100%);
+}
+
+#tlr
+{
+	position:fixed;
+	z-index: 999;
+	left:94.9%;
+	top:89.1%;
+	height:100%;
+	filter: grayscale(100%);
+}
+
+#pt
+{
+	position:fixed;
+	z-index: 999;
+	left:96.9%;
+	top:89.1%;
+	height:100%;
+	filter: grayscale(100%);
+}
+
+#tw
+{
+	position:fixed;
+	z-index: 999;
+	left:94.5%;
+	top:84.5%;
+	height:100%;
+	filter: grayscale(100%);
+}
+
+#ig
+{
+	position:fixed;
+	z-index: 999;
+	left:96.8%;
+	top:84.5%;
+	height:100%;
+	filter: grayscale(100%);
+}
+
+#nl
+{
+	position:fixed;
+	z-index: 999;
+	left:5.3%;
+	top:83.5%;
+	height:100%;
+	filter: grayscale(100%);
+	opacity:80%;
+}
+
+#marvel_text
+{
+	position:fixed;
+	color:red;
+	z-index: 99;
+	left:54%;
+	top:87%;
+	height:100%;
+	font-size:18px;
+}
+
+#newsletter_announce
+{
+	position:fixed;
+	color:black;
+	z-index: 99;
+	left:1.5%;
+	top:92%;
+	height:100%;
+	font-size:14px;
+}
+
+#customer
+{
+	position:fixed;
+	color:black;
+	z-index:9999;
+	left:19.5%;
+	top:86%;
+	height:100%;
+	font-size:19px;
+}
+
+#shipping
+{
+	position:fixed;
+	color:black;
+	z-index:9999;
+	left:20.7%;
+	top:89%;
+	height:100%;
+	font-size:13px;
+}
+
+#contact
+{
+	position:fixed;
+	color:black;
+	z-index:9999;
+	left:22.2%;
+	top:91.5%;
+	height:100%;
+	font-size:13px;
+}
+
+#track
+{
+	position:fixed;
+	color:black;
+	z-index:9999;
+	left:21.6%;
+	top:93.8%;
+	height:100%;
+	font-size:13px;
+}
+
+#marvel_cash
+{
+	position:fixed;
+	color:black;
+	z-index: 99;
+	left:50.7%;
+	top:90%;
+	height:100%;
+	font-size:26px;
+}
+
+#marvel_card
+{
+	position:fixed;
+	color:black;
+	z-index: 99;
+	left:69.7%;
+	top:78%;
+}
+
+#marvel_card2
+{
+	position:fixed;
+	color:black;
+	z-index: 99;
+	left:32.7%;
+	top:83%;
+}
+
+#venom_text1
+{
+	position:fixed;
+	z-index:100;
+	left:10.5%;
+	top:30%;
+	color:white;
+	font-size:2vw;
+}
+
+#venom_text2
+{
+	position:fixed;
+	z-index:100;
+	left:8%;
+	top:35%;
+	color:white;
+	font-size:2vw;
+}
+
+#venom_text3
+{
+	position:fixed;
+	z-index:100;
+	left:14%;
+	top:41%;
+	color:white;
+	font-size:0.8vw;
+}
+
+#venom_eyes
+{
+	position:absolute;
+	width:20%;
+	height:20%;
+	top:32%;
+	left:76%;
+}
+
+#daredevil_text1
+{
+	position:fixed;
+	z-index:100;
+	left:4%;
+	top:37%;
+	color:white;
+	font-size:2vw;
+}
+
+#daredevil_text2
+{
+	position:fixed;
+	z-index:100;
+	left:6.2%;
+	top:43%;
+	color:white;
+	font-size:0.8vw;
+}
